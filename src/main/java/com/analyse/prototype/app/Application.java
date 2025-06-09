@@ -6,7 +6,7 @@ import com.analyse.prototype.entities.Persoon;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Application {
     public static void main(String[] args) {
-        Persoon persoon1 = new Persoon(1, "Enrico", 21,);
+        Persoon persoon1 = new Persoon(1, "Enrico", 21, 1200.00);
 
         persoon1.bestelLaptop();
     }

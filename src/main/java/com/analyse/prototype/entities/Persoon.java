@@ -10,6 +10,7 @@ public class Persoon {
         this.id = id;
         this.naam = naam;
         this.leefijd = leefijd;
+        this.balans = balans;
     }
 
     public void bestelLaptop() {

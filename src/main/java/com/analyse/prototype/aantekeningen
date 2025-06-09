@@ -1,0 +1,30 @@
+mvn clean compile
+mvn test
+mvn exec:java -Dexec.mainClass="com.analyse.prototype.app.Application"
+
+
+Stap voor stap:
+Pas constructor aan
+
+Save
+
+Open terminal in IntelliJ
+
+Voer dit uit:
+
+bash
+Copy
+Edit
+mvn clean compile
+Als dat lukt, doe dan:
+
+bash
+Copy
+Edit
+mvn exec:java -Dexec.mainClass=com.analyse.prototype.app.Application
+Je zou dan moeten zien:
+
+yaml
+Copy
+Edit
+nieuwe balans : 200.0
