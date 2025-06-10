@@ -6,11 +6,10 @@ public class Persoon {
     private Integer leefijd;
     private double balans;
 
-    public Persoon(Integer id, String naam, Integer leefijd, double balans) {
+    public Persoon(Integer id, String naam, Integer leefijd) {
         this.id = id;
         this.naam = naam;
         this.leefijd = leefijd;
-        this.balans = balans;
     }
 
     public void bestelLaptop() {
